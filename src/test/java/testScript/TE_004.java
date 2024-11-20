@@ -26,6 +26,7 @@ public class TE_004 extends BaseClass{
 	    String country=eUtil.getDataFromExcel("Leads",13,8);
 	    String state=eUtil.getDataFromExcel("Leads",13,9);
 	    cn.createNewLead(fName, lName, company,street,postalcode,poBox,city,country,state);
+	    System.out.println("Te_004 is executed");
 	    
 	}
 

@@ -32,6 +32,7 @@ public class TE_002Test extends BaseClass {
 	    String country=eUtil.getDataFromExcel("Leads",1,13);
 	    String state=eUtil.getDataFromExcel("Leads",1,14);
 	    cn.createNewLead(fName, lName, company);
+	    System.out.println("Te_002 is executed");
 		
 
 }

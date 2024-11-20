@@ -20,6 +20,7 @@ public class TE_001Test extends BaseClass {
 	    String lName=eUtil.getDataFromExcel("Leads",1,2);
 	    String company=eUtil.getDataFromExcel("Leads",1,3);
 	    cn.createNewLead(fName, lName, company);
+	    System.out.println("Te_001 is executed");
 		
 
 }

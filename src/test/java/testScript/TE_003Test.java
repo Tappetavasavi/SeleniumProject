@@ -24,7 +24,7 @@ public class TE_003Test extends BaseClass {
 	    String mobile=eUtil.getDataFromExcel("Leads",9,6);
 	    String email=eUtil.getDataFromExcel("Leads",9,7);
 	    String noOfEmp=eUtil.getDataFromExcel("Leads",9,8);
-	   
+	    cn.createNewLead(fName, lName, company,title,phone,mobile,email,noOfEmp);
     }
 	
 }
